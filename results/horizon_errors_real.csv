@@ -1,0 +1,46 @@
+series,config,arm,h,true_M,share_pct,err_pct
+"log1p forest, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,1,140.46061414,38.681687083470315,-55.309266079821164
+"log1p forest, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,2,46.64537425,12.84574883626423,11.236897362657295
+"log1p forest, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,3,42.86738251,11.805321274521152,-4.704335361761435
+"log1p forest, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,4,52.07004183,14.33965725426573,-44.28109919716103
+"log1p forest, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,5,51.67779230000001,14.23163499001039,-71.54688106266383
+"log1p forest, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,6,17.99960347,4.9569413697644436,-87.17066569458703
+"log1p forest, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,7,4.6924157,1.2922523291265693,-98.8700382821708
+"log1p forest, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,8,6.080143,1.674420907161445,-99.87496846954042
+"log1p forest, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,9,0.62578486,0.17233595541570287,-100.0
+"log1p forest, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,1,140.46061414,38.681687083470315,9.94217660204404
+"log1p forest, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,2,46.64537425,12.84574883626423,212.67329602930317
+"log1p forest, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,3,42.86738251,11.805321274521152,219.64003093526054
+"log1p forest, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,4,52.07004183,14.33965725426573,148.4491645069
+"log1p forest, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,5,51.67779230000001,14.23163499001039,67.28316310311087
+"log1p forest, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,6,17.99960347,4.9569413697644436,-52.83399293592916
+"log1p forest, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,7,4.6924157,1.2922523291265693,-98.6707576689265
+"log1p forest, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,8,6.080143,1.674420907161445,-99.87496846954042
+"log1p forest, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,9,0.62578486,0.17233595541570287,-100.0
+Poisson forest,random_forest_poisson__per_dy__raw__two_stage,pred__none,1,140.46061414,38.681687083470315,17.64481918431622
+Poisson forest,random_forest_poisson__per_dy__raw__two_stage,pred__none,2,46.64537425,12.84574883626423,195.07650439930194
+Poisson forest,random_forest_poisson__per_dy__raw__two_stage,pred__none,3,42.86738251,11.805321274521152,130.57896766054355
+Poisson forest,random_forest_poisson__per_dy__raw__two_stage,pred__none,4,52.07004183,14.33965725426573,51.560038366312774
+Poisson forest,random_forest_poisson__per_dy__raw__two_stage,pred__none,5,51.67779230000001,14.23163499001039,36.52681072660353
+Poisson forest,random_forest_poisson__per_dy__raw__two_stage,pred__none,6,17.99960347,4.9569413697644436,-49.73207218304163
+Poisson forest,random_forest_poisson__per_dy__raw__two_stage,pred__none,7,4.6924157,1.2922523291265693,-97.71395699768316
+Poisson forest,random_forest_poisson__per_dy__raw__two_stage,pred__none,8,6.080143,1.674420907161445,-99.77147412080294
+Poisson forest,random_forest_poisson__per_dy__raw__two_stage,pred__none,9,0.62578486,0.17233595541570287,-100.0
+LightGBM Tweedie,lightgbm_tweedie__per_dy__raw__two_stage,pred__none,1,140.46061414,38.681687083470315,-9.93750495430441
+LightGBM Tweedie,lightgbm_tweedie__per_dy__raw__two_stage,pred__none,2,46.64537425,12.84574883626423,137.09225923796598
+LightGBM Tweedie,lightgbm_tweedie__per_dy__raw__two_stage,pred__none,3,42.86738251,11.805321274521152,100.13397242332292
+LightGBM Tweedie,lightgbm_tweedie__per_dy__raw__two_stage,pred__none,4,52.07004183,14.33965725426573,12.013745718166469
+LightGBM Tweedie,lightgbm_tweedie__per_dy__raw__two_stage,pred__none,5,51.67779230000001,14.23163499001039,-29.927508433976115
+LightGBM Tweedie,lightgbm_tweedie__per_dy__raw__two_stage,pred__none,6,17.99960347,4.9569413697644436,-11.643746675845634
+LightGBM Tweedie,lightgbm_tweedie__per_dy__raw__two_stage,pred__none,7,4.6924157,1.2922523291265693,-97.49147060664932
+LightGBM Tweedie,lightgbm_tweedie__per_dy__raw__two_stage,pred__none,8,6.080143,1.674420907161445,-99.77413828331588
+LightGBM Tweedie,lightgbm_tweedie__per_dy__raw__two_stage,pred__none,9,0.62578486,0.17233595541570287,-100.0
+"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,1,140.46061414,38.681687083470315,0.8503852322225836
+"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,2,46.64537425,12.84574883626423,35.593968155193956
+"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,3,42.86738251,11.805321274521152,-21.24588309971225
+"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,4,52.07004183,14.33965725426573,-48.97244851752798
+"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,5,51.67779230000001,14.23163499001039,-77.92031403062587
+"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,6,17.99960347,4.9569413697644436,-69.01945951470262
+"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,7,4.6924157,1.2922523291265693,-83.55883580808054
+"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,8,6.080143,1.674420907161445,-98.83765390603429
+"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,9,0.62578486,0.17233595541570287,-98.67561230627273

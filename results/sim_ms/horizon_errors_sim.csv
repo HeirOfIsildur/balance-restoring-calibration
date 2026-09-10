@@ -1,0 +1,109 @@
+scenario,series,config,arm,h,n_seeds,mean_err_pct,min_err_pct,max_err_pct,sd_err_pct
+S-A,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,1,30,0.9905665386273694,-12.638255230116647,17.0017595490908,7.48356643453025
+S-A,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,2,30,-27.4828015237942,-37.14520353961284,-6.218656593343153,7.440947245477871
+S-A,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,3,30,-41.66306117494864,-54.902697260413255,-21.73161911936843,8.233898069355922
+S-A,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,4,30,-49.360250959485036,-69.23157470795556,-38.09045696705403,7.936336601104862
+S-A,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,5,30,-54.920779540087764,-73.44472057327552,-15.732971960125175,10.739453783524665
+S-A,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,6,30,-62.10210496072796,-80.40671805573629,-43.340444451378545,10.15008243367555
+S-A,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,7,30,-65.64892669559701,-78.21062485260356,-34.276813938744866,10.873186377392681
+S-A,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,8,30,-75.504403666403,-93.12538610570182,-30.275224511548615,15.061706111556719
+S-A,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,9,30,-90.78207401131047,-98.8746194908897,-79.50850000665649,4.733638949721257
+S-A,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,1,30,-43.1838954373114,-50.17722873603662,-35.92157658119079,3.8747632039671664
+S-A,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,2,30,-58.34227823820838,-64.51491092702808,-46.52568306706556,4.2582392451930655
+S-A,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,3,30,-66.18889263965077,-73.82195691643554,-55.056509541424624,4.539413939034413
+S-A,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,4,30,-70.275895786643,-82.24999370018101,-63.189868235743674,4.561287617685016
+S-A,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,5,30,-73.51097000697443,-84.05529748471717,-51.88957429319865,6.088664376123347
+S-A,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,6,30,-77.67961966022072,-89.02025562507875,-68.86470388674282,5.759564432683625
+S-A,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,7,30,-79.26927592213414,-86.4474940112487,-62.35481027985439,5.524792045426631
+S-A,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,8,30,-84.2262010522871,-95.133725448487,-61.38555788892906,7.912891953881591
+S-A,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,9,30,-90.78207401131047,-98.8746194908897,-79.50850000665649,4.733638949721257
+S-A,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,1,30,2.9399648005611523,-7.637820865576684,15.6708598007536,6.794355839223585
+S-A,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,2,30,-22.743298366402577,-34.72682700194808,7.477929888018675,9.385858982467589
+S-A,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,3,30,-35.03270079553519,-51.5639515723892,-7.975402681092381,9.9157403059902
+S-A,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,4,30,-40.57024532615445,-64.25651952969018,-18.470027237966057,9.747757331129906
+S-A,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,5,30,-45.270044046135936,-66.99923798442852,-20.1970274337541,10.600813028884131
+S-A,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,6,30,-50.400065287655664,-73.5875035357347,-6.397388633880963,14.027387887917675
+S-A,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,7,30,-51.735332801367605,-68.98073190948261,-21.876769846420807,11.35917006550541
+S-A,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,8,30,-60.1339268938153,-85.2281673230189,-21.24248065931943,15.933616105869438
+S-A,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,9,30,-73.8191807937473,-95.63079315545731,-37.049516200252306,14.6644963707161
+S-A,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,1,30,4.1365547407900705,-6.354739437972667,18.190779748405884,6.626006127992292
+S-A,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,2,30,4.264166808660536,-11.87142652995451,23.587168987902672,8.41486653162623
+S-A,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,3,30,7.49005486421599,-16.330510068328362,37.11016137711525,13.753877044955964
+S-A,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,4,30,7.832003799521011,-12.477614252848468,29.42957067235539,12.0486396351713
+S-A,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,5,30,8.304453541762193,-22.060091447929974,72.1528641694763,19.79733821750346
+S-A,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,6,30,8.290156595096105,-22.96326381747744,81.42080526745632,23.714905836804977
+S-A,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,7,30,18.33781480066307,-21.046195362896604,66.76194975620204,25.254133690677623
+S-A,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,8,30,-21.87487421487589,-64.12186620040539,43.826269639969894,28.732207090366067
+S-A,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,9,30,-52.585828839853114,-88.98156059236251,0.40609587039321937,25.535963075229983
+S-B,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,1,10,2.459099365767255,-14.76504674552227,10.316929626181114,7.508364354864949
+S-B,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,2,10,-26.25655501933885,-34.578589716229594,-18.55672698490909,4.826509195404751
+S-B,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,3,10,-41.438944538732414,-57.6270807015437,-19.11958345509184,10.332275071165714
+S-B,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,4,10,-52.76303116683042,-69.66940985766303,-33.32916653102808,10.358344938922691
+S-B,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,5,10,-59.335318384786774,-81.88616242668462,-44.40064243119931,10.970883915493818
+S-B,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,6,10,-66.96282593799944,-83.22507661386581,-54.4194358855146,8.263755626122531
+S-B,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,7,10,-73.29822688998107,-84.60300353296128,-62.56744761317772,7.636059086706513
+S-B,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,8,10,-81.52709145597028,-93.82115538889929,-53.3041264082171,12.212682183890916
+S-B,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,9,10,-93.18082692121156,-96.6431237072132,-85.08789274935708,3.692928079677939
+S-B,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,1,10,-44.331216904192274,-53.731490269790115,-39.793391349673016,4.108626198580134
+S-B,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,2,10,-59.79968815344737,-63.86716524667241,-55.989729397145105,2.627079124191994
+S-B,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,3,10,-68.25338254494162,-76.33151091874704,-60.26469539972965,4.267520573560683
+S-B,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,4,10,-74.60247734615638,-81.95457948646963,-66.59925864985698,4.870779747971194
+S-B,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,5,10,-78.53702483419269,-88.91942137048738,-73.4712345926486,4.6564718343787685
+S-B,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,6,10,-82.54018617735129,-89.3062813542441,-78.01100270827965,3.5641235081497937
+S-B,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,7,10,-85.70224193488578,-89.62656318479051,-80.52132698354093,3.0886358251378003
+S-B,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,8,10,-90.24229280695457,-95.75327935611622,-79.13485416497448,4.971627105236914
+S-B,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,9,10,-93.18082692121156,-96.6431237072132,-85.08789274935708,3.692928079677939
+S-B,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,1,10,0.15107449129709707,-13.394841758693577,8.203486039383279,6.233590016532463
+S-B,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,2,10,-24.918788216339845,-30.068580351468157,-16.281437683811394,4.034300836850638
+S-B,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,3,10,-36.18975321581892,-53.44568260066759,-12.04408246591676,11.919693994411242
+S-B,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,4,10,-46.846925626108685,-61.817809970496754,-31.558598691307438,9.681730043235026
+S-B,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,5,10,-52.37500759040779,-76.59301186159122,-36.05813712064896,12.594103258677558
+S-B,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,6,10,-57.982608847620114,-76.56685087944153,-42.88603854035541,10.20046868056716
+S-B,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,7,10,-61.861991335474514,-78.42271989250294,-38.2494458146626,12.561437385193141
+S-B,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,8,10,-71.39509287685489,-85.07734325796682,-38.44771100918547,16.106196948968794
+S-B,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,9,10,-73.80329324812301,-91.78808599909765,8.772367608787057,30.468623768432387
+S-B,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,1,10,2.786286201060043,-13.716889872417592,13.537986544000447,7.637037057183498
+S-B,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,2,10,6.349079536724119,-4.161785167379262,13.771050712444888,5.4205411236218035
+S-B,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,3,10,8.830981159620261,-2.2223981831543282,31.40242801696722,11.085924986387536
+S-B,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,4,10,3.9964475750887454,-16.961990265508177,24.080931305931387,12.059988264324604
+S-B,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,5,10,1.3649229474471194,-25.08628221776511,21.424247029545327,14.589858896232775
+S-B,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,6,10,-3.4270826452612524,-25.198658787789853,31.806427333945585,18.077603880645345
+S-B,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,7,10,5.74633133819575,-44.916152729915346,66.56440506677342,31.845938821771025
+S-B,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,8,10,-53.73907771119089,-85.77504980898661,35.00955327642381,36.2968879731034
+S-B,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,9,10,-87.12368892104854,-95.05532576360692,-71.04734417584734,6.993168486645418
+S-C,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,1,10,-7.705497076345724,-15.738101782353231,-0.3900050451400183,5.637152823350082
+S-C,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,2,10,-38.52199706180413,-44.31945868378795,-29.668546604939706,4.700819677649352
+S-C,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,3,10,-49.55866527605304,-61.02388710396869,-39.00188851656635,7.05979331221852
+S-C,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,4,10,-56.30021448012816,-62.31843768463692,-47.692071631411345,4.453314902578734
+S-C,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,5,10,-63.08503639948744,-69.91969443741594,-51.23916829869945,5.258307641372849
+S-C,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,6,10,-71.30436690627661,-82.56839920291483,-60.39036405738673,7.245582544078746
+S-C,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,7,10,-74.18526781545127,-85.63052410247138,-61.13002144039148,8.621071315835856
+S-C,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,8,10,-80.92920821245913,-94.31874320506529,-58.3363130463173,11.75294783911621
+S-C,"log1p per-DY, calibrated",random_forest__per_dy__log1p__two_stage,pred__cv_global,9,10,-93.4150998810135,-95.91786732881367,-88.22850038749685,2.288825187220073
+S-C,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,1,10,-48.120727605631416,-52.02026667251229,-43.223677982638534,3.13445853794482
+S-C,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,2,10,-64.43436845112956,-67.01511365419594,-59.66706275803717,2.7835607000576457
+S-C,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,3,10,-70.4408153124165,-76.61943359831642,-63.447793695141954,4.22726640730916
+S-C,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,4,10,-74.16896540697596,-77.06442742699849,-68.21465151189904,2.762015751072078
+S-C,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,5,10,-77.96746722813438,-81.51793490468386,-71.57627614341955,3.0308480106340983
+S-C,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,6,10,-82.71473940107123,-89.38417966115661,-76.27818966400544,4.324102993440539
+S-C,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,7,10,-84.01904896818289,-90.4167779521676,-76.56204869812508,4.213328312466466
+S-C,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,8,10,-87.56407954225908,-96.01442547715693,-79.23958130897752,6.167993643772436
+S-C,"log1p per-DY, uncorrected",random_forest__per_dy__log1p__two_stage,pred__none,9,10,-93.4150998810135,-95.91786732881367,-88.22850038749685,2.288825187220073
+S-C,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,1,10,-7.298734860944606,-15.062256090462823,5.5387591383817325,7.041166901226984
+S-C,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,2,10,-34.84205482258902,-41.560745836889964,-28.119494979710712,4.450725506838835
+S-C,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,3,10,-44.859728467112234,-57.12821193327648,-33.26968946137655,7.449418729674957
+S-C,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,4,10,-50.37731242991678,-55.51524906908352,-44.71672512046017,3.323311864106889
+S-C,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,5,10,-55.06714236271271,-62.69532026906648,-45.453951398754796,5.120355554390966
+S-C,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,6,10,-62.28015367652665,-79.80128600718503,-43.93745031840896,10.25613617425846
+S-C,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,7,10,-62.84933467278165,-77.03764677954275,-41.921244718004345,10.169999169396549
+S-C,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,8,10,-68.12913570050883,-88.2526366076927,-38.04458262159381,16.482520620080216
+S-C,"Poisson per-DY, uncorrected",random_forest_poisson__per_dy__raw__two_stage,pred__none,9,10,-82.59237534287638,-89.64778631585885,-75.96538951229084,4.792008425656009
+S-C,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,1,10,-4.267245637157108,-10.779706866958083,6.324373933551186,5.2811058392012225
+S-C,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,2,10,-9.448538529674362,-20.324927211644315,4.492312761638639,6.692459854935209
+S-C,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,3,10,-7.272935248455957,-25.950638340147492,6.340825364908387,10.992167535115849
+S-C,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,4,10,-10.558754322015442,-33.69613005709917,5.563269208432442,11.971133255680066
+S-C,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,5,10,-14.786404805616758,-33.210144169925435,16.983056578528945,14.73164139610302
+S-C,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,6,10,-24.502060482809704,-41.547558678097175,0.05772219739144102,13.767043099880263
+S-C,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,7,10,-17.82985270796164,-42.462109297423304,11.382379623512605,18.33170072741721
+S-C,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,8,10,-46.367974461973105,-66.52106120891015,-14.359231586743304,18.66667425649573
+S-C,"multi-step log1p, per-h calibrated",random_forest__multi_step__log1p__two_stage,pred__cv_dy,9,10,-71.97731373608818,-91.69649686644239,-33.329833189274936,17.900138950960233
